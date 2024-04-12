@@ -1,4 +1,4 @@
-# 4.Execution_of_NetworkCommands
+# 4(a).Execution_of_NetworkCommands
 ## AIM :Use of Network commands in Real Time environment
 ## Software : Command Prompt And Network Protocol Analyzer
 ## Procedure: To do this EXPERIMENT- follows these steps:
@@ -26,7 +26,7 @@ This commands includes
 • Other IP Commands e.g. show ip route etc.
 <BR>
 
-## Algorithm:
+## ALGORITHM:
 <BR>
 Step 1: start the program.
 <BR>
@@ -85,3 +85,36 @@ while True:
 
 ## Result
 Thus Execution of Network commands Performed.
+
+# WRITE A CODE SIMULATING TRACEROUTE COMMAND
+## EXP: 4(b)
+## DATE:
+## AIM:To write the python program for simulating Traceroute command
+## ALGORITHM:
+<BR>
+1. Start the program.
+<BR>
+2. Get the frame size from the user.
+<BR>
+3. To create the frame based on the user request.
+<BR>
+4. To send frames to server from the client side.
+<BR>
+5. If your frames reach the server, it will send ACK signal to client
+otherwise it will sendNACK signal to client.
+<BR>
+6. Stop the program
+<BR>
+
+### PROGRAM:
+```
+from scapy.all import*
+target = ["www.google.com"]
+result, unans = traceroute(target,maxttl=32)
+print(result,unans)
+```
+### OUTPUT:
+![image](https://github.com/jabezs2005/4.Execution_of_NetworkCommends/assets/147473463/142a4af0-ba07-478e-8945-61ff76eb241f)
+
+## RESULT:
+Thus, the python program for simulating Traceroute command was successfully executed.
