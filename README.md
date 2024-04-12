@@ -86,8 +86,8 @@ while True:
 ## Result
 Thus Execution of Network commands Performed.
 
-# WRITE A CODE SIMULATING TRACEROUTE COMMAND
-## EXP: 4(b)
+# 4(b).WRITE A CODE SIMULATING TRACEROUTE COMMAND
+
 ## DATE:
 ## AIM:To write the python program for simulating Traceroute command
 ## ALGORITHM:
